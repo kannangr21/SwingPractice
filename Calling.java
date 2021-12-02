@@ -4,6 +4,10 @@ import java.awt.event.*;
 public class Calling implements ActionListener{
 	
 	public void actionPerformed(ActionEvent e){
+		
+		Calls cl = new Calls();
+		cl.oneLog(LayoutTester.l1.getText(), e.getActionCommand());
+		SwingExampleOne.l.logEntry(cl);
 		JFrame t = new JFrame("Calling...");
 		t.setBounds(100,100,300,425);
 		t.setLayout(new BorderLayout());
@@ -42,6 +46,7 @@ public class Calling implements ActionListener{
 		endCall.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
 				t.dispatchEvent(new WindowEvent(t, WindowEvent.WINDOW_CLOSING));
+				LayoutTester.l1.setText("");
 			}
 		});
 		
@@ -59,6 +64,7 @@ public class Calling implements ActionListener{
 				
 			}
 		});
+		
 		hold.addActionListener(new DialogBox());
 		addCall.addActionListener(new DialogBox());
 		record.addActionListener(new DialogBox());

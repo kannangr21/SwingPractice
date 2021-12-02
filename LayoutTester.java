@@ -36,7 +36,7 @@ public class LayoutTester extends JFrame{
 		pane.add(l1,"North");
 		pane.add(nums, "Center");
 		pane.add(keys, "South");
-		
+	
 		b1.addActionListener(new AddNumber());
 		b2.addActionListener(new AddNumber());
 		b3.addActionListener(new AddNumber());
@@ -51,8 +51,9 @@ public class LayoutTester extends JFrame{
 		bb.addActionListener(new AddNumber());
 		s1.addActionListener(new Calling());
 		s2.addActionListener(new Calling());
-		//s2.addActionListener(new Calling());
+		lo.addActionListener(new LogHistory());
 	}
+	
 	public static void buttonStyle(JButton jb, int i){
 		jb.setBorder(BorderFactory.createEmptyBorder());
 		jb.setOpaque(false);
