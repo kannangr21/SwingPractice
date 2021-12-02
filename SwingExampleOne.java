@@ -8,6 +8,5 @@ public class SwingExampleOne{
 		JFrame f = new LayoutTester();
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setVisible(true);
-
 	}
 }
