@@ -11,7 +11,7 @@ public class LayoutTester extends JFrame{
 	s1 = new JButton("Sim 1"), s2 = new JButton("Sim 2"), lo = new JButton("Logs");
 	public static JPanel nums = new JPanel(new GridLayout(4, 3, 10, 10));
 	public LayoutTester(){
-		setTitle("My Test Application");
+		setTitle("Dummy Dialpad");
 		setBounds(100,100,300,425);
 		Container pane = getContentPane();
 		pane.setLayout(new BorderLayout(50,50));
