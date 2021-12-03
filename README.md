@@ -10,12 +10,12 @@ This is a Mobile Dialpad application built using Java Swing which is used for de
 Here are some of the Images of the application.
 
 1. Dialpad with and without numbers.
-![Initial Screen](Dialpad.jpg)  
+![Initial Screen](screenshots/Dialpad.jpg)  
 
 2. Calling interface with buttons.
-![Numbers](CallInterface.jpg) 
+![Numbers](screenshots/CallInterface.jpg) 
 
 3. Call logs page.   
-![Logs](CallLogs.png)
+![Logs](screenshots/CallLogs.png)
 
 
