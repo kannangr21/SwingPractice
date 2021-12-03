@@ -1,3 +1,8 @@
+package caller.style;
+
+import caller.*;
+import caller.style.*;
+import caller.history.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -55,11 +60,6 @@ public class Calling implements ActionListener{
 				JButton back = new JButton("Back");
 				pa.remove(controls);
 				pa.add(LayoutTester.nums);
-				//pa.addActionListener(new ActionListener(){
-				//	public void actionPerformed(ActionEvent e){
-				//		System.out.println(e.getActionCommand());
-				//	}
-				//});
 				pa.revalidate();
 				
 			}
