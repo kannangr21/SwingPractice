@@ -1,7 +1,3 @@
-package caller.style;
-
-import caller.style.*;
-import caller.history.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -55,7 +51,7 @@ public class LayoutTester extends JFrame{
 		bb.addActionListener(new AddNumber());
 		s1.addActionListener(new Calling());
 		s2.addActionListener(new Calling());
-		lo.addActionListener(new LogHistory()); 
+		lo.addActionListener(new LogHistory());
 	}
 	
 	public static void buttonStyle(JButton jb, int i){

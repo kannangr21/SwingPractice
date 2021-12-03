@@ -1,8 +1,3 @@
-package caller;
-
-import caller.style.*;
-import caller.history.*;
-
 import javax.swing.*;
 import javax.swing.table.*;
 import java.awt.*;
